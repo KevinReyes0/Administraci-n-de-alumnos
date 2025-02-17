@@ -1,4 +1,4 @@
-import Usuario from '../user/user.model.js';
+import User from '../user/user.model.js';
 import { hash, verify } from 'argon2';
 import { generarJWT } from '../helpers/generate-jwt.js';
 
@@ -7,7 +7,7 @@ export const  login = async(req, res) => {
 
     try {
 
-        const user = await Usuario.findOne({
+        const user = await User.findOne({
             $or: [{email}, {username}]
         }) 
 
@@ -56,7 +56,7 @@ export const registerProfes = async (req, res) => {
 
         const encryptedPassword = await hash(data.password);
 
-        const user = await Usuario.create({
+        const user = await User.create({
             name: data.name,
             surname: data.surname,
             username: data.username,
@@ -89,7 +89,7 @@ export const registerAlumnos = async (req, res) => {
 
         const encryptedPassword = await hash(data.password);
 
-        const user = await Usuario.create({
+        const user = await User.create({
             name: data.name,
             surname: data.surname,
             username: data.username,

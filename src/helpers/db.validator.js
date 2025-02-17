@@ -1,5 +1,5 @@
 import Role from '../role/role.model.js'
-import Usuario from '../user/user.model.js'
+import User from '../user/user.model.js'
  
 export const esRoleValido = async(role = '') =>{
     const existeRol = await Role.findOne({ role });
@@ -11,7 +11,7 @@ export const esRoleValido = async(role = '') =>{
 }
  
 export const existeEmail = async(correo = '') =>{
-    const existeEmail = await Usuario.findOne({ correo });
+    const existeEmail = await User.findOne({ correo });
  
     if(!existeEmail){
         throw new Error(`El correo ${correo} ya existe en la base de datos`)

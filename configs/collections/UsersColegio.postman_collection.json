@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "713fe9da-23ec-4939-9922-8600cd982660",
+		"_postman_id": "8d3ef624-f11b-4711-80e3-f75d24fc3385",
 		"name": "UsersColegio",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "37413968"
@@ -66,7 +66,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"kevin\",\r\n    \"surname\": \"Reyes\",\r\n    \"username\": \"kreyes\",\r\n    \"email\": \"kreyes@kinal.edu.gt\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"12345678\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Cristian\",\r\n    \"surname\": \"Rosas\",\r\n    \"username\": \"crosas\",\r\n    \"email\": \"crosas@kinal.edu.gt\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -160,7 +160,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"rgutierrez@kinal.edu.gt\",\r\n    \"password\": \"12345678\"\r\n}",
+					"raw": "{\r\n    \"email\": \"crosas@kinal.edu.gt\",\r\n    \"password\": \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -227,7 +227,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/gestorAcademico/v1/users/asignarCurso/67b12e164ede0252597fe113",
+					"raw": "http://localhost:3001/gestorAcademico/v1/users/asignarCurso/67b3b89cb4d67a1b9a400ac9",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -238,7 +238,7 @@
 						"v1",
 						"users",
 						"asignarCurso",
-						"67b12e164ede0252597fe113"
+						"67b3b89cb4d67a1b9a400ac9"
 					]
 				}
 			},
