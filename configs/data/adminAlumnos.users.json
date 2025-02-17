@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "67b0e2a7810e564d0882b26b"
+  },
+  "name": "pedro",
+  "surname": "Armas",
+  "username": "parmas",
+  "email": "parmas@kinal.edu.gt",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$J2zgM4+x/MkvQozZ0sQ+Ng$ATUfehzvA3nuRcMvBJipLu6Az3diVvlEf3z1kAxGOCk",
+  "phone": "12345678",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-15T18:53:27.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T18:53:27.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b0e3b823786d0cde2022d3"
+  },
+  "name": "Rafael",
+  "surname": "Guttierez",
+  "username": "rgutierrez",
+  "email": "rgutierrez@kinal.edu.gt",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$w869P84I784nOIKL0F5vDw$F+lWsPCsIyxj140aaw9Hpadz1YeK2HrNb6VJXVrS2fM",
+  "phone": "12345678",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-15T18:58:00.483Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T18:58:00.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b12e164ede0252597fe113"
+  },
+  "name": "Jorge",
+  "surname": "Peralta",
+  "username": "jperalta",
+  "email": "jperalta@kinal.edu.gt",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$t125P6J34hmSQFe12Egzxg$oGDLFdpKgoE1sI3PBtGBwRtQODXxjfG2kCKIr0I41NM",
+  "phone": "12345678",
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "keeper": [
+    {
+      "$oid": "67b1123d6f254f90204196f3"
+    },
+    {
+      "$oid": "67b12f17268542a7d2ee4c6e"
+    },
+    {
+      "$oid": "67b12f17268542a7d2ee4c6e"
+    },
+    {
+      "$oid": "67b13e4db33df6f65d400add"
+    },
+    {
+      "$oid": "67b0f55450ac8ed27f18c350"
+    },
+    {
+      "$oid": "67b0f55450ac8ed27f18c350"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-16T00:15:18.715Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-16T01:29:58.884Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b130ac2ebb185ac5693cb4"
+  },
+  "name": "kevin",
+  "surname": "Reyes",
+  "username": "kreyes",
+  "email": "kreyes@kinal.edu.gt",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$H2QX17NgUCt+AXwQn+g2EQ$l5pozWUzU00909Z1iIb8EE6ukJ2EZ3taiVJWgkV5uCI",
+  "phone": "12345678",
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "keeper": [
+    {
+      "$oid": "67b12f17268542a7d2ee4c6e"
+    },
+    {
+      "$oid": "67b12f0a268542a7d2ee4c6a"
+    },
+    {
+      "$oid": "67b0f55450ac8ed27f18c350"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-16T00:26:20.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-16T00:26:43.245Z"
+  }
+}]

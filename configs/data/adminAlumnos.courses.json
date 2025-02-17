@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "67b0f55450ac8ed27f18c350"
+  },
+  "name": "Seminario",
+  "description": "Curso de seminario",
+  "keeper": {
+    "$oid": "67b0e3b823786d0cde2022d3"
+  },
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b1123d6f254f90204196f3"
+  },
+  "name": "Practica supervisada",
+  "description": "Este es el curso de practica",
+  "keeper": {
+    "$oid": "67b0e3b823786d0cde2022d3"
+  },
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b12f0a268542a7d2ee4c6a"
+  },
+  "name": "Taller",
+  "description": "Curso de taller",
+  "keeper": {
+    "$oid": "67b0e3b823786d0cde2022d3"
+  },
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b13e4db33df6f65d400add"
+  },
+  "name": "Etica",
+  "description": "Curso de etica",
+  "keeper": {
+    "$oid": "67b0e3b823786d0cde2022d3"
+  },
+  "status": false
+}]
